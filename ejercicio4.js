@@ -1,0 +1,9 @@
+
+
+let parrafo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+
+var people = (parámetro)=> {
+    return parámetro.toLowerCase().replace(/\b[a-z]/g, c => c.toUpperCase());
+}
+  console.log(people(parrafo));
+ 
